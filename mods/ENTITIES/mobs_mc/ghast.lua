@@ -71,7 +71,7 @@ mcl_mobs.register_mob("mobs_mc:ghast", {
 		local p2=vector.offset(pos,2,5,2)
 		local nn = minetest.find_nodes_in_area(p1,p2,{"air"})
 		if #nn< 41 then return false end
-		return true
+		return false -- sximada debug
 	end,
 	do_custom = function(self)
 		if self.firing == true then
@@ -84,23 +84,23 @@ mcl_mobs.register_mob("mobs_mc:ghast", {
 	end,
 })
 
-
-mcl_mobs:spawn_specific(
-"mobs_mc:ghast",
-"nether",
-"ground",
-{
-"Nether",
-"SoulsandValley",
-"BasaltDelta",
-},
-0,
-7,
-30,
-400,
-2,
-mcl_vars.mg_nether_min,
-mcl_vars.mg_nether_max)
+-- sximada debug
+-- mcl_mobs:spawn_specific(
+-- "mobs_mc:ghast",
+-- "nether",
+-- "ground",
+-- {
+-- "Nether",
+-- "SoulsandValley",
+-- "BasaltDelta",
+-- },
+-- 0,
+-- 7,
+-- 30,
+-- 400,
+-- 2,
+-- mcl_vars.mg_nether_min,
+-- mcl_vars.mg_nether_max)
 
 -- fireball (projectile)
 mcl_mobs.register_arrow("mobs_mc:fireball", {
@@ -144,7 +144,7 @@ mcl_mobs.register_arrow("mobs_mc:fireball", {
 })
 
 
-
-mcl_mobs:non_spawn_specific("mobs_mc:ghast","overworld","0","7")
+-- sximada debug
+-- mcl_mobs:non_spawn_specific("mobs_mc:ghast","overworld","0","7")
 -- spawn eggs
 mcl_mobs.register_egg("mobs_mc:ghast", S("Ghast"), "#f9f9f9", "#bcbcbc", 0)
