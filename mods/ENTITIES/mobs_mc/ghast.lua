@@ -85,22 +85,22 @@ mcl_mobs.register_mob("mobs_mc:ghast", {
 })
 
 -- sximada debug
--- mcl_mobs:spawn_specific(
--- "mobs_mc:ghast",
--- "nether",
--- "ground",
--- {
--- "Nether",
--- "SoulsandValley",
--- "BasaltDelta",
--- },
--- 0,
--- 7,
--- 30,
--- 400,
--- 2,
--- mcl_vars.mg_nether_min,
--- mcl_vars.mg_nether_max)
+mcl_mobs:spawn_specific(
+"mobs_mc:ghast",
+"nether",
+"ground",
+{
+"Nether",
+"SoulsandValley",
+"BasaltDelta",
+},
+0,
+7,
+30,
+40000,
+2,
+mcl_vars.mg_nether_min,
+mcl_vars.mg_nether_max)
 
 -- fireball (projectile)
 mcl_mobs.register_arrow("mobs_mc:fireball", {

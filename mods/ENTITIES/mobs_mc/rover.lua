@@ -519,7 +519,7 @@ mcl_mobs:spawn_specific(
 0,
 minetest.LIGHT_MAX+1,
 30,
-100,
+1000,
 12,
 mcl_vars.mg_end_min,
 mcl_vars.mg_end_max)
@@ -667,7 +667,7 @@ mcl_mobs:spawn_specific(
 0,
 7,
 30,
-100,
+1000,
 2,
 mcl_vars.mg_overworld_min,
 mcl_vars.mg_overworld_max)
@@ -684,7 +684,7 @@ mcl_mobs:spawn_specific(
 0,
 11,
 30,
-100,
+1000,
 4,
 mcl_vars.mg_nether_min,
 mcl_vars.mg_nether_max)
@@ -700,7 +700,7 @@ mcl_mobs:spawn_specific(
 0,
 11,
 30,
-100,
+1000,
 4,
 mcl_vars.mg_nether_min,
 mcl_vars.mg_nether_max)

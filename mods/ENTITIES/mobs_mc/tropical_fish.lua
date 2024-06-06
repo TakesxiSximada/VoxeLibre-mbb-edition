@@ -184,7 +184,7 @@ mcl_mobs:spawn_specific(
 0,
 minetest.LIGHT_MAX+1,
 30,
-750,
+7500,
 3,
 water-16,
 water+1)

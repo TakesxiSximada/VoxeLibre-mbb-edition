@@ -136,7 +136,7 @@ mcl_mobs:spawn_specific(
 0,
 minetest.LIGHT_MAX+1,
 30,
-200,
+2000,
 3,
 mcl_vars.mg_nether_min,
 mcl_vars.mg_nether_max)
